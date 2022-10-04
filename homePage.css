@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    background:#999;
+    font-family: arial;
+}
+
+header {
+    background:#777;
+    padding: 30px 15px 30px 30px;
+
+}
+
+header nav ul {
+    display: inline;
+    padding: 10px 10px;
+    float: right;
+}
+
+header nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    color: white;
+    font-size: 15px;
+
+    padding: 5px 15px;
+
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(58, 61, 240);
+}
+
+header nav h1 {
+    margin: 0;
+    display: inline;
+    color: white;
+    font-size: 40px;
+    font-family: Cambria;
+}
+
+.middle {
+    background: none;
+    font-size: 20px;
+    padding: 0 0 0 0;
+    margin: 5px;
+
+    height: 30px;
+    line-height: 15px;
+}
+
+div.albums {
+    clear: both;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.albums button {
+    background:#333;
+    color: white;
+    font-size: 20px;
+    padding: 10px 1%;
+    margin: .3%;
+    width: 15%;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    text-align: left;
+}
+
+.album img {
+    max-width: 30%;
+    height: auto;
+}
+
+.text {
+    padding-left: 25%;
+}
+
+.album {
+    float: left;
+}
+
+.album:hover {
+    background: gray;
+    color: black;
+}
+
+footer {
+    clear: both;
+}
