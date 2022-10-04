@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    background:#222;
+    font-family: arial;
+    color: white;
+}
+
+header {
+    background: #111;
+    padding: 35px 25px;
+}
+
+div.head .Title {
+    display: inline;
+    font-size: 30px;
+}
+
+div.head ul {
+    margin: 0;
+    display: inline;
+    float: right;
+    padding: 35px 0 0 0;
+}
+
+div.head ul li {
+    display: inline;
+    padding: 0 5px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.head a:hover {
+    color: lightgreen;
+}
+
+h1 {
+    padding: 0px 25px;
+}
+
+.Albums {
+    clear: both;
+    margin: 0;
+    text-align: center;
+}
+
+.Album {
+    position: relative;
+    display: inline;
+    padding: 0 12.5px;
+}
+
+.Album img {
+    width: 250px;
+    height: auto;
+    display: inline-block;
+    padding: 0 0 25px 0;
+    z-index: 1;
+    transition: transform .5s;
+}
+
+.Album .albumLabel {
+    position: absolute;
+    bottom: 300%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    visibility: hidden;
+    font-size: 1.5vw;
+}
+
+.Album:hover img {
+    opacity: .25;
+    transform: scale(1.1);
+}
+
+.Album:hover .albumLabel {
+    visibility: visible;
+}
+
+
+
